@@ -48,6 +48,8 @@ cw2 = "1.0.0"
 schemars = "0.8.10"
 serde = { version = "1.0.145", default-features = false, features = ["derive"] }
 thiserror = { version = "1.0.31" }
+imp = "0.1.0"
+getrandom = { version = "0.2", features = ["js"] }
 
 [dev-dependencies]
 cw-multi-test = "0.16.1"
