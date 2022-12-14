@@ -19,3 +19,6 @@ pub enum QueryMsg {
 // We define a custom struct for each query response
 #[cw_serde]
 pub struct BoilerplateResponse {}
+
+#[cw_serde]
+pub enum MigrateMsg {}
